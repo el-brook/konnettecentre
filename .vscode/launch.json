@@ -7,6 +7,13 @@
         {
             "type": "chrome",
             "request": "launch",
+            "name": "Enable GPT-5 mini for all clients",
+            "url": "file://${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
